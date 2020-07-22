@@ -1,0 +1,21 @@
+<h1>Sample Page</h1>
+<hr>
+<oj-button on-oj-action="[[display]]">Show</oj-button>
+<hr>
+<div data-bind="foreach: dataprovider" class="oj-flex">
+    <div class="oj-sm-12 oj-xs-6 oj-md-4 oj-lg-4 oj-flex-item">
+        <oj-bind-if test="[[$data.component === 'one']]">
+            <user-component-one value="[[$data.value]]"
+                                component-id="[[$data.id]]"
+                                :id="[[$data.id]]">
+            </user-component-one>
+        </oj-bind-if>
+        <oj-bind-if test="[[$data.component === 'two']]">
+            <user-component-two value="[[$data.value]]"
+                                component-id="[[$data.id]]"
+                                :id="[[$data.id]]">
+            </user-component-two>
+        </oj-bind-if>
+    </div>
+</div>
+

@@ -1,0 +1,3 @@
+user-component-two:not(.oj-complete){
+  visibility: hidden;
+}

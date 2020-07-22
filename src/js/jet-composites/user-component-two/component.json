@@ -1,0 +1,27 @@
+{
+  "name": "user-component-two",
+  "version": "1.0.0",
+  "jetVersion": "^7.2.0",
+  "properties": {
+    "componentId": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  },
+  "methods": {
+    "getValue": {
+      "return": "string"
+    }
+  }, 
+  "events": {
+    "bindingsApplied": {
+      "bubbles" : true,
+      "cancelable" : false
+    }
+  }, 
+  "slots": {
+
+  }
+}
