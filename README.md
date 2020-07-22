@@ -1,5 +1,5 @@
-# processing-demo
-A sample JET 7.2.0 application to demonstrate busy context API for custom JET web components  
+# busycontext-demo
+A sample JET 7.2.0 application to demonstrate the power of busy context API for custom JET web components  
 
 - - - -
 
